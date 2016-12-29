@@ -10,4 +10,6 @@
 
 @interface WZXSearchBar : UIControl
 
+@property (nonatomic, strong) UIButton * searchButton;
+
 @end

@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E64B3831E14AD980011E2FC /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B34F1E14AD980011E2FC /* AddressViewController.m */; };
+		1E64B3841E14AD980011E2FC /* AddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3531E14AD980011E2FC /* AddressBookCell.m */; };
+		1E64B3851E14AD980011E2FC /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3581E14AD980011E2FC /* ChatViewController.m */; };
+		1E64B3861E14AD980011E2FC /* ConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B35C1E14AD980011E2FC /* ConversationCell.m */; };
+		1E64B3871E14AD980011E2FC /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B35E1E14AD980011E2FC /* SearchCell.m */; };
+		1E64B3881E14AD980011E2FC /* WZXSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3601E14AD980011E2FC /* WZXSearchBar.m */; };
+		1E64B3891E14AD980011E2FC /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3651E14AD980011E2FC /* FoundViewController.m */; };
+		1E64B38A1E14AD980011E2FC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B36C1E14AD980011E2FC /* LoginViewController.m */; };
+		1E64B38B1E14AD980011E2FC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B36E1E14AD980011E2FC /* RegisterViewController.m */; };
+		1E64B38C1E14AD980011E2FC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3701E14AD980011E2FC /* RootViewController.m */; };
+		1E64B38D1E14AD980011E2FC /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3721E14AD980011E2FC /* TabBarController.m */; };
+		1E64B38E1E14AD980011E2FC /* LoginContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3761E14AD980011E2FC /* LoginContentView.m */; };
+		1E64B38F1E14AD980011E2FC /* RegisterContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3781E14AD980011E2FC /* RegisterContentView.m */; };
+		1E64B3901E14AD980011E2FC /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B37D1E14AD980011E2FC /* SettingViewController.m */; };
+		1E64B3911E14AD980011E2FC /* MeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3811E14AD980011E2FC /* MeCell.m */; };
+		1E64B3941E14ADAE0011E2FC /* AddressBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3931E14ADAE0011E2FC /* AddressBookModel.m */; };
+		1E64B3971E14B78E0011E2FC /* ConversationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3961E14B78E0011E2FC /* ConversationModel.m */; };
+		1E64B39A1E14DB8E0011E2FC /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3991E14DB8E0011E2FC /* AddressCell.m */; };
+		1E64B39D1E14E0410011E2FC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B39C1E14E0410011E2FC /* SearchViewController.m */; };
+		1E64B3A01E14E2B60011E2FC /* SearchModalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B39F1E14E2B60011E2FC /* SearchModalAnimation.m */; };
+		1E64B3A31E14FF4B0011E2FC /* ChatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3A21E14FF4B0011E2FC /* ChatDetailViewController.m */; };
 		1E64BC741E13A73A004DE2B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC1A1E13A73A004DE2B3 /* AppDelegate.m */; };
 		1E64BC751E13A73A004DE2B3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC1D1E13A73A004DE2B3 /* BaseViewController.m */; };
 		1E64BC761E13A73A004DE2B3 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC231E13A73A004DE2B3 /* KeyChain.m */; };
 		1E64BC771E13A73A004DE2B3 /* WDUtilMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC271E13A73A004DE2B3 /* WDUtilMethod.m */; };
-		1E64BC781E13A73A004DE2B3 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC2C1E13A73A004DE2B3 /* AddressViewController.m */; };
-		1E64BC791E13A73A004DE2B3 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC331E13A73A004DE2B3 /* ChatViewController.m */; };
-		1E64BC7A1E13A73A004DE2B3 /* ConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC371E13A73A004DE2B3 /* ConversationCell.m */; };
-		1E64BC7B1E13A73A004DE2B3 /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC391E13A73A004DE2B3 /* SearchCell.m */; };
-		1E64BC7C1E13A73A004DE2B3 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC3E1E13A73A004DE2B3 /* FoundViewController.m */; };
-		1E64BC7D1E13A73A004DE2B3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC451E13A73A004DE2B3 /* RootViewController.m */; };
-		1E64BC7E1E13A73A004DE2B3 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC471E13A73A004DE2B3 /* TabBarController.m */; };
-		1E64BC7F1E13A73A004DE2B3 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC4E1E13A73A004DE2B3 /* SettingViewController.m */; };
 		1E64BC801E13A73A004DE2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E64BC531E13A73A004DE2B3 /* Assets.xcassets */; };
 		1E64BC811E13A73A004DE2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E64BC541E13A73A004DE2B3 /* LaunchScreen.storyboard */; };
 		1E64BC831E13A73A004DE2B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC571E13A73A004DE2B3 /* main.m */; };
@@ -32,20 +45,55 @@
 		1E64BC8B1E13A73A004DE2B3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC6E1E13A73A004DE2B3 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		1E64BC8C1E13A73A004DE2B3 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC701E13A73A004DE2B3 /* View+MASAdditions.m */; };
 		1E64BC8D1E13A73A004DE2B3 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC731E13A73A004DE2B3 /* ViewController+MASAdditions.m */; };
-		1E64BC901E13AA76004DE2B3 /* WZXSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC8F1E13AA76004DE2B3 /* WZXSearchBar.m */; };
 		1E64BC931E13AC9B004DE2B3 /* ThridPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC921E13AC9B004DE2B3 /* ThridPartService.m */; };
 		1E64BC9A1E13B2C9004DE2B3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC991E13B2C9004DE2B3 /* UIView+Extension.m */; };
 		1E64BC9F1E13B316004DE2B3 /* UIView+WZXLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC9D1E13B316004DE2B3 /* UIView+WZXLines.m */; };
-		1E64BCA21E13B816004DE2B3 /* MeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCA11E13B816004DE2B3 /* MeCell.m */; };
-		1E64BCA71E13BAD7004DE2B3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCA41E13BAD7004DE2B3 /* LoginViewController.m */; };
-		1E64BCA81E13BAD7004DE2B3 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCA61E13BAD7004DE2B3 /* RegisterViewController.m */; };
-		1E64BCAD1E13BC22004DE2B3 /* LoginContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCAA1E13BC22004DE2B3 /* LoginContentView.m */; };
-		1E64BCAE1E13BC22004DE2B3 /* RegisterContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCAC1E13BC22004DE2B3 /* RegisterContentView.m */; };
 		1E64BCB21E13BF04004DE2B3 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCB11E13BF04004DE2B3 /* UIColor+Extension.m */; };
-		1E64BCB51E13BFFE004DE2B3 /* AddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCB41E13BFFE004DE2B3 /* AddressBookCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E64B34E1E14AD980011E2FC /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		1E64B34F1E14AD980011E2FC /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		1E64B3521E14AD980011E2FC /* AddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookCell.h; sourceTree = "<group>"; };
+		1E64B3531E14AD980011E2FC /* AddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookCell.m; sourceTree = "<group>"; };
+		1E64B3571E14AD980011E2FC /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		1E64B3581E14AD980011E2FC /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		1E64B35B1E14AD980011E2FC /* ConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationCell.h; sourceTree = "<group>"; };
+		1E64B35C1E14AD980011E2FC /* ConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationCell.m; sourceTree = "<group>"; };
+		1E64B35D1E14AD980011E2FC /* SearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCell.h; sourceTree = "<group>"; };
+		1E64B35E1E14AD980011E2FC /* SearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCell.m; sourceTree = "<group>"; };
+		1E64B35F1E14AD980011E2FC /* WZXSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXSearchBar.h; sourceTree = "<group>"; };
+		1E64B3601E14AD980011E2FC /* WZXSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXSearchBar.m; sourceTree = "<group>"; };
+		1E64B3641E14AD980011E2FC /* FoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
+		1E64B3651E14AD980011E2FC /* FoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
+		1E64B36B1E14AD980011E2FC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1E64B36C1E14AD980011E2FC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1E64B36D1E14AD980011E2FC /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		1E64B36E1E14AD980011E2FC /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		1E64B36F1E14AD980011E2FC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1E64B3701E14AD980011E2FC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1E64B3711E14AD980011E2FC /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		1E64B3721E14AD980011E2FC /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		1E64B3751E14AD980011E2FC /* LoginContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginContentView.h; sourceTree = "<group>"; };
+		1E64B3761E14AD980011E2FC /* LoginContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginContentView.m; sourceTree = "<group>"; };
+		1E64B3771E14AD980011E2FC /* RegisterContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterContentView.h; sourceTree = "<group>"; };
+		1E64B3781E14AD980011E2FC /* RegisterContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterContentView.m; sourceTree = "<group>"; };
+		1E64B37C1E14AD980011E2FC /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		1E64B37D1E14AD980011E2FC /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		1E64B3801E14AD980011E2FC /* MeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeCell.h; sourceTree = "<group>"; };
+		1E64B3811E14AD980011E2FC /* MeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeCell.m; sourceTree = "<group>"; };
+		1E64B3921E14ADAE0011E2FC /* AddressBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookModel.h; sourceTree = "<group>"; };
+		1E64B3931E14ADAE0011E2FC /* AddressBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookModel.m; sourceTree = "<group>"; };
+		1E64B3951E14B78E0011E2FC /* ConversationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationModel.h; sourceTree = "<group>"; };
+		1E64B3961E14B78E0011E2FC /* ConversationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationModel.m; sourceTree = "<group>"; };
+		1E64B3981E14DB8E0011E2FC /* AddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
+		1E64B3991E14DB8E0011E2FC /* AddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCell.m; sourceTree = "<group>"; };
+		1E64B39B1E14E0410011E2FC /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		1E64B39C1E14E0410011E2FC /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		1E64B39E1E14E2B60011E2FC /* SearchModalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModalAnimation.h; sourceTree = "<group>"; };
+		1E64B39F1E14E2B60011E2FC /* SearchModalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModalAnimation.m; sourceTree = "<group>"; };
+		1E64B3A11E14FF4B0011E2FC /* ChatDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDetailViewController.h; sourceTree = "<group>"; };
+		1E64B3A21E14FF4B0011E2FC /* ChatDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDetailViewController.m; sourceTree = "<group>"; };
 		1E64BB7C1E138C67004DE2B3 /* WWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E64BC191E13A73A004DE2B3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E64BC1A1E13A73A004DE2B3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,22 +104,6 @@
 		1E64BC251E13A73A004DE2B3 /* WDMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMacro.h; sourceTree = "<group>"; };
 		1E64BC261E13A73A004DE2B3 /* WDUtilMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDUtilMethod.h; sourceTree = "<group>"; };
 		1E64BC271E13A73A004DE2B3 /* WDUtilMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDUtilMethod.m; sourceTree = "<group>"; };
-		1E64BC2B1E13A73A004DE2B3 /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
-		1E64BC2C1E13A73A004DE2B3 /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
-		1E64BC321E13A73A004DE2B3 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
-		1E64BC331E13A73A004DE2B3 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
-		1E64BC361E13A73A004DE2B3 /* ConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationCell.h; sourceTree = "<group>"; };
-		1E64BC371E13A73A004DE2B3 /* ConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationCell.m; sourceTree = "<group>"; };
-		1E64BC381E13A73A004DE2B3 /* SearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCell.h; sourceTree = "<group>"; };
-		1E64BC391E13A73A004DE2B3 /* SearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCell.m; sourceTree = "<group>"; };
-		1E64BC3D1E13A73A004DE2B3 /* FoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
-		1E64BC3E1E13A73A004DE2B3 /* FoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
-		1E64BC441E13A73A004DE2B3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		1E64BC451E13A73A004DE2B3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		1E64BC461E13A73A004DE2B3 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
-		1E64BC471E13A73A004DE2B3 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
-		1E64BC4D1E13A73A004DE2B3 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
-		1E64BC4E1E13A73A004DE2B3 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		1E64BC531E13A73A004DE2B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E64BC551E13A73A004DE2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E64BC561E13A73A004DE2B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,8 +134,6 @@
 		1E64BC711E13A73A004DE2B3 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		1E64BC721E13A73A004DE2B3 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1E64BC731E13A73A004DE2B3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		1E64BC8E1E13AA76004DE2B3 /* WZXSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXSearchBar.h; sourceTree = "<group>"; };
-		1E64BC8F1E13AA76004DE2B3 /* WZXSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXSearchBar.m; sourceTree = "<group>"; };
 		1E64BC911E13AC9B004DE2B3 /* ThridPartService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThridPartService.h; sourceTree = "<group>"; };
 		1E64BC921E13AC9B004DE2B3 /* ThridPartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThridPartService.m; sourceTree = "<group>"; };
 		1E64BC941E13ACD1004DE2B3 /* WZXConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXConfig.h; sourceTree = "<group>"; };
@@ -112,20 +142,8 @@
 		1E64BC9C1E13B316004DE2B3 /* UIView+WZXLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZXLines.h"; sourceTree = "<group>"; };
 		1E64BC9D1E13B316004DE2B3 /* UIView+WZXLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZXLines.m"; sourceTree = "<group>"; };
 		1E64BC9E1E13B316004DE2B3 /* WZXLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXLines.h; sourceTree = "<group>"; };
-		1E64BCA01E13B816004DE2B3 /* MeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeCell.h; sourceTree = "<group>"; };
-		1E64BCA11E13B816004DE2B3 /* MeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeCell.m; sourceTree = "<group>"; };
-		1E64BCA31E13BAD7004DE2B3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		1E64BCA41E13BAD7004DE2B3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		1E64BCA51E13BAD7004DE2B3 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		1E64BCA61E13BAD7004DE2B3 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		1E64BCA91E13BC22004DE2B3 /* LoginContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginContentView.h; sourceTree = "<group>"; };
-		1E64BCAA1E13BC22004DE2B3 /* LoginContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginContentView.m; sourceTree = "<group>"; };
-		1E64BCAB1E13BC22004DE2B3 /* RegisterContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterContentView.h; sourceTree = "<group>"; };
-		1E64BCAC1E13BC22004DE2B3 /* RegisterContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterContentView.m; sourceTree = "<group>"; };
 		1E64BCB01E13BF04004DE2B3 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		1E64BCB11E13BF04004DE2B3 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
-		1E64BCB31E13BFFE004DE2B3 /* AddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookCell.h; sourceTree = "<group>"; };
-		1E64BCB41E13BFFE004DE2B3 /* AddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +157,255 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E64B34B1E14AD980011E2FC /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B34C1E14AD980011E2FC /* Address */,
+				1E64B3551E14AD980011E2FC /* Chat */,
+				1E64B3621E14AD980011E2FC /* Found */,
+				1E64B3691E14AD980011E2FC /* Root */,
+				1E64B37A1E14AD980011E2FC /* Setting */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		1E64B34C1E14AD980011E2FC /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B34D1E14AD980011E2FC /* Control */,
+				1E64B3501E14AD980011E2FC /* Model */,
+				1E64B3511E14AD980011E2FC /* View */,
+				1E64B3541E14AD980011E2FC /* ViewModel */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		1E64B34D1E14AD980011E2FC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B34E1E14AD980011E2FC /* AddressViewController.h */,
+				1E64B34F1E14AD980011E2FC /* AddressViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1E64B3501E14AD980011E2FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3921E14ADAE0011E2FC /* AddressBookModel.h */,
+				1E64B3931E14ADAE0011E2FC /* AddressBookModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E64B3511E14AD980011E2FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3521E14AD980011E2FC /* AddressBookCell.h */,
+				1E64B3531E14AD980011E2FC /* AddressBookCell.m */,
+				1E64B3981E14DB8E0011E2FC /* AddressCell.h */,
+				1E64B3991E14DB8E0011E2FC /* AddressCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E64B3541E14AD980011E2FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E64B3551E14AD980011E2FC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3561E14AD980011E2FC /* Control */,
+				1E64B3591E14AD980011E2FC /* Model */,
+				1E64B35A1E14AD980011E2FC /* View */,
+				1E64B3611E14AD980011E2FC /* ViewModel */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		1E64B3561E14AD980011E2FC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3571E14AD980011E2FC /* ChatViewController.h */,
+				1E64B3581E14AD980011E2FC /* ChatViewController.m */,
+				1E64B39B1E14E0410011E2FC /* SearchViewController.h */,
+				1E64B39C1E14E0410011E2FC /* SearchViewController.m */,
+				1E64B3A11E14FF4B0011E2FC /* ChatDetailViewController.h */,
+				1E64B3A21E14FF4B0011E2FC /* ChatDetailViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1E64B3591E14AD980011E2FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3951E14B78E0011E2FC /* ConversationModel.h */,
+				1E64B3961E14B78E0011E2FC /* ConversationModel.m */,
+				1E64B39E1E14E2B60011E2FC /* SearchModalAnimation.h */,
+				1E64B39F1E14E2B60011E2FC /* SearchModalAnimation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E64B35A1E14AD980011E2FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B35B1E14AD980011E2FC /* ConversationCell.h */,
+				1E64B35C1E14AD980011E2FC /* ConversationCell.m */,
+				1E64B35D1E14AD980011E2FC /* SearchCell.h */,
+				1E64B35E1E14AD980011E2FC /* SearchCell.m */,
+				1E64B35F1E14AD980011E2FC /* WZXSearchBar.h */,
+				1E64B3601E14AD980011E2FC /* WZXSearchBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E64B3611E14AD980011E2FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E64B3621E14AD980011E2FC /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3631E14AD980011E2FC /* Control */,
+				1E64B3661E14AD980011E2FC /* Model */,
+				1E64B3671E14AD980011E2FC /* View */,
+				1E64B3681E14AD980011E2FC /* ViewModel */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		1E64B3631E14AD980011E2FC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3641E14AD980011E2FC /* FoundViewController.h */,
+				1E64B3651E14AD980011E2FC /* FoundViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1E64B3661E14AD980011E2FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E64B3671E14AD980011E2FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E64B3681E14AD980011E2FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E64B3691E14AD980011E2FC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B36A1E14AD980011E2FC /* Control */,
+				1E64B3731E14AD980011E2FC /* Model */,
+				1E64B3741E14AD980011E2FC /* View */,
+				1E64B3791E14AD980011E2FC /* ViewModel */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		1E64B36A1E14AD980011E2FC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B36B1E14AD980011E2FC /* LoginViewController.h */,
+				1E64B36C1E14AD980011E2FC /* LoginViewController.m */,
+				1E64B36D1E14AD980011E2FC /* RegisterViewController.h */,
+				1E64B36E1E14AD980011E2FC /* RegisterViewController.m */,
+				1E64B36F1E14AD980011E2FC /* RootViewController.h */,
+				1E64B3701E14AD980011E2FC /* RootViewController.m */,
+				1E64B3711E14AD980011E2FC /* TabBarController.h */,
+				1E64B3721E14AD980011E2FC /* TabBarController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1E64B3731E14AD980011E2FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E64B3741E14AD980011E2FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3751E14AD980011E2FC /* LoginContentView.h */,
+				1E64B3761E14AD980011E2FC /* LoginContentView.m */,
+				1E64B3771E14AD980011E2FC /* RegisterContentView.h */,
+				1E64B3781E14AD980011E2FC /* RegisterContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E64B3791E14AD980011E2FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E64B37A1E14AD980011E2FC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B37B1E14AD980011E2FC /* Control */,
+				1E64B37E1E14AD980011E2FC /* Model */,
+				1E64B37F1E14AD980011E2FC /* View */,
+				1E64B3821E14AD980011E2FC /* ViewModel */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		1E64B37B1E14AD980011E2FC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B37C1E14AD980011E2FC /* SettingViewController.h */,
+				1E64B37D1E14AD980011E2FC /* SettingViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1E64B37E1E14AD980011E2FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E64B37F1E14AD980011E2FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B3801E14AD980011E2FC /* MeCell.h */,
+				1E64B3811E14AD980011E2FC /* MeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E64B3821E14AD980011E2FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		1E64BB731E138C67004DE2B3 = {
 			isa = PBXGroup;
 			children = (
@@ -161,10 +428,10 @@
 				1E64BC181E13A73A004DE2B3 /* AppDelegate */,
 				1E64BC1B1E13A73A004DE2B3 /* Base */,
 				1E64BC1E1E13A73A004DE2B3 /* Category */,
+				1E64B34B1E14AD980011E2FC /* Sections */,
 				1E64BC1F1E13A73A004DE2B3 /* Constants */,
 				1E64BC201E13A73A004DE2B3 /* Functions */,
 				1E64BC241E13A73A004DE2B3 /* Macros */,
-				1E64BC281E13A73A004DE2B3 /* Sections */,
 				1E64BC591E13A73A004DE2B3 /* Vendors */,
 				1E64BC521E13A73A004DE2B3 /* Support File */,
 			);
@@ -233,243 +500,6 @@
 				1E64BC271E13A73A004DE2B3 /* WDUtilMethod.m */,
 			);
 			path = Macros;
-			sourceTree = "<group>";
-		};
-		1E64BC281E13A73A004DE2B3 /* Sections */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC421E13A73A004DE2B3 /* Root */,
-				1E64BC301E13A73A004DE2B3 /* Chat */,
-				1E64BC291E13A73A004DE2B3 /* Address */,
-				1E64BC3B1E13A73A004DE2B3 /* Found */,
-				1E64BC4B1E13A73A004DE2B3 /* Setting */,
-			);
-			path = Sections;
-			sourceTree = "<group>";
-		};
-		1E64BC291E13A73A004DE2B3 /* Address */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC2A1E13A73A004DE2B3 /* Control */,
-				1E64BC2D1E13A73A004DE2B3 /* Model */,
-				1E64BC2E1E13A73A004DE2B3 /* View */,
-				1E64BC2F1E13A73A004DE2B3 /* ViewModel */,
-			);
-			path = Address;
-			sourceTree = "<group>";
-		};
-		1E64BC2A1E13A73A004DE2B3 /* Control */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC2B1E13A73A004DE2B3 /* AddressViewController.h */,
-				1E64BC2C1E13A73A004DE2B3 /* AddressViewController.m */,
-			);
-			path = Control;
-			sourceTree = "<group>";
-		};
-		1E64BC2D1E13A73A004DE2B3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1E64BC2E1E13A73A004DE2B3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BCB31E13BFFE004DE2B3 /* AddressBookCell.h */,
-				1E64BCB41E13BFFE004DE2B3 /* AddressBookCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1E64BC2F1E13A73A004DE2B3 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		1E64BC301E13A73A004DE2B3 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC311E13A73A004DE2B3 /* Control */,
-				1E64BC341E13A73A004DE2B3 /* Model */,
-				1E64BC351E13A73A004DE2B3 /* View */,
-				1E64BC3A1E13A73A004DE2B3 /* ViewModel */,
-			);
-			path = Chat;
-			sourceTree = "<group>";
-		};
-		1E64BC311E13A73A004DE2B3 /* Control */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC321E13A73A004DE2B3 /* ChatViewController.h */,
-				1E64BC331E13A73A004DE2B3 /* ChatViewController.m */,
-			);
-			path = Control;
-			sourceTree = "<group>";
-		};
-		1E64BC341E13A73A004DE2B3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1E64BC351E13A73A004DE2B3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC361E13A73A004DE2B3 /* ConversationCell.h */,
-				1E64BC371E13A73A004DE2B3 /* ConversationCell.m */,
-				1E64BC381E13A73A004DE2B3 /* SearchCell.h */,
-				1E64BC391E13A73A004DE2B3 /* SearchCell.m */,
-				1E64BC8E1E13AA76004DE2B3 /* WZXSearchBar.h */,
-				1E64BC8F1E13AA76004DE2B3 /* WZXSearchBar.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1E64BC3A1E13A73A004DE2B3 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		1E64BC3B1E13A73A004DE2B3 /* Found */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC3C1E13A73A004DE2B3 /* Control */,
-				1E64BC3F1E13A73A004DE2B3 /* Model */,
-				1E64BC401E13A73A004DE2B3 /* View */,
-				1E64BC411E13A73A004DE2B3 /* ViewModel */,
-			);
-			path = Found;
-			sourceTree = "<group>";
-		};
-		1E64BC3C1E13A73A004DE2B3 /* Control */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC3D1E13A73A004DE2B3 /* FoundViewController.h */,
-				1E64BC3E1E13A73A004DE2B3 /* FoundViewController.m */,
-			);
-			path = Control;
-			sourceTree = "<group>";
-		};
-		1E64BC3F1E13A73A004DE2B3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1E64BC401E13A73A004DE2B3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1E64BC411E13A73A004DE2B3 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		1E64BC421E13A73A004DE2B3 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC431E13A73A004DE2B3 /* Control */,
-				1E64BC481E13A73A004DE2B3 /* Model */,
-				1E64BC491E13A73A004DE2B3 /* View */,
-				1E64BC4A1E13A73A004DE2B3 /* ViewModel */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
-		1E64BC431E13A73A004DE2B3 /* Control */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC441E13A73A004DE2B3 /* RootViewController.h */,
-				1E64BC451E13A73A004DE2B3 /* RootViewController.m */,
-				1E64BC461E13A73A004DE2B3 /* TabBarController.h */,
-				1E64BC471E13A73A004DE2B3 /* TabBarController.m */,
-				1E64BCA31E13BAD7004DE2B3 /* LoginViewController.h */,
-				1E64BCA41E13BAD7004DE2B3 /* LoginViewController.m */,
-				1E64BCA51E13BAD7004DE2B3 /* RegisterViewController.h */,
-				1E64BCA61E13BAD7004DE2B3 /* RegisterViewController.m */,
-			);
-			path = Control;
-			sourceTree = "<group>";
-		};
-		1E64BC481E13A73A004DE2B3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1E64BC491E13A73A004DE2B3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BCA91E13BC22004DE2B3 /* LoginContentView.h */,
-				1E64BCAA1E13BC22004DE2B3 /* LoginContentView.m */,
-				1E64BCAB1E13BC22004DE2B3 /* RegisterContentView.h */,
-				1E64BCAC1E13BC22004DE2B3 /* RegisterContentView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1E64BC4A1E13A73A004DE2B3 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		1E64BC4B1E13A73A004DE2B3 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC4C1E13A73A004DE2B3 /* Control */,
-				1E64BC4F1E13A73A004DE2B3 /* Model */,
-				1E64BC501E13A73A004DE2B3 /* View */,
-				1E64BC511E13A73A004DE2B3 /* ViewModel */,
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
-		1E64BC4C1E13A73A004DE2B3 /* Control */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BC4D1E13A73A004DE2B3 /* SettingViewController.h */,
-				1E64BC4E1E13A73A004DE2B3 /* SettingViewController.m */,
-			);
-			path = Control;
-			sourceTree = "<group>";
-		};
-		1E64BC4F1E13A73A004DE2B3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1E64BC501E13A73A004DE2B3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1E64BCA01E13B816004DE2B3 /* MeCell.h */,
-				1E64BCA11E13B816004DE2B3 /* MeCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1E64BC511E13A73A004DE2B3 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		1E64BC521E13A73A004DE2B3 /* Support File */ = {
@@ -624,39 +654,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E64BCA71E13BAD7004DE2B3 /* LoginViewController.m in Sources */,
+				1E64B3861E14AD980011E2FC /* ConversationCell.m in Sources */,
 				1E64BC831E13A73A004DE2B3 /* main.m in Sources */,
-				1E64BCA21E13B816004DE2B3 /* MeCell.m in Sources */,
 				1E64BC761E13A73A004DE2B3 /* KeyChain.m in Sources */,
 				1E64BCB21E13BF04004DE2B3 /* UIColor+Extension.m in Sources */,
+				1E64B3A01E14E2B60011E2FC /* SearchModalAnimation.m in Sources */,
 				1E64BC931E13AC9B004DE2B3 /* ThridPartService.m in Sources */,
+				1E64B38A1E14AD980011E2FC /* LoginViewController.m in Sources */,
+				1E64B39D1E14E0410011E2FC /* SearchViewController.m in Sources */,
+				1E64B3851E14AD980011E2FC /* ChatViewController.m in Sources */,
+				1E64B38E1E14AD980011E2FC /* LoginContentView.m in Sources */,
+				1E64B3881E14AD980011E2FC /* WZXSearchBar.m in Sources */,
+				1E64B3911E14AD980011E2FC /* MeCell.m in Sources */,
 				1E64BC8B1E13A73A004DE2B3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				1E64BC7A1E13A73A004DE2B3 /* ConversationCell.m in Sources */,
-				1E64BCAD1E13BC22004DE2B3 /* LoginContentView.m in Sources */,
 				1E64BC891E13A73A004DE2B3 /* MASViewConstraint.m in Sources */,
+				1E64B38F1E14AD980011E2FC /* RegisterContentView.m in Sources */,
+				1E64B3891E14AD980011E2FC /* FoundViewController.m in Sources */,
+				1E64B3941E14ADAE0011E2FC /* AddressBookModel.m in Sources */,
+				1E64B38B1E14AD980011E2FC /* RegisterViewController.m in Sources */,
 				1E64BC741E13A73A004DE2B3 /* AppDelegate.m in Sources */,
+				1E64B3831E14AD980011E2FC /* AddressViewController.m in Sources */,
 				1E64BC8C1E13A73A004DE2B3 /* View+MASAdditions.m in Sources */,
-				1E64BCAE1E13BC22004DE2B3 /* RegisterContentView.m in Sources */,
-				1E64BCB51E13BFFE004DE2B3 /* AddressBookCell.m in Sources */,
-				1E64BC791E13A73A004DE2B3 /* ChatViewController.m in Sources */,
 				1E64BC881E13A73A004DE2B3 /* MASViewAttribute.m in Sources */,
 				1E64BC861E13A73A004DE2B3 /* MASConstraintMaker.m in Sources */,
-				1E64BC7D1E13A73A004DE2B3 /* RootViewController.m in Sources */,
-				1E64BC7E1E13A73A004DE2B3 /* TabBarController.m in Sources */,
-				1E64BC781E13A73A004DE2B3 /* AddressViewController.m in Sources */,
-				1E64BC901E13AA76004DE2B3 /* WZXSearchBar.m in Sources */,
+				1E64B3A31E14FF4B0011E2FC /* ChatDetailViewController.m in Sources */,
 				1E64BC8D1E13A73A004DE2B3 /* ViewController+MASAdditions.m in Sources */,
-				1E64BC7B1E13A73A004DE2B3 /* SearchCell.m in Sources */,
+				1E64B3901E14AD980011E2FC /* SettingViewController.m in Sources */,
+				1E64B3841E14AD980011E2FC /* AddressBookCell.m in Sources */,
 				1E64BC8A1E13A73A004DE2B3 /* NSArray+MASAdditions.m in Sources */,
 				1E64BC751E13A73A004DE2B3 /* BaseViewController.m in Sources */,
+				1E64B38C1E14AD980011E2FC /* RootViewController.m in Sources */,
 				1E64BC871E13A73A004DE2B3 /* MASLayoutConstraint.m in Sources */,
 				1E64BC841E13A73A004DE2B3 /* MASCompositeConstraint.m in Sources */,
 				1E64BC771E13A73A004DE2B3 /* WDUtilMethod.m in Sources */,
 				1E64BC9A1E13B2C9004DE2B3 /* UIView+Extension.m in Sources */,
-				1E64BCA81E13BAD7004DE2B3 /* RegisterViewController.m in Sources */,
+				1E64B3871E14AD980011E2FC /* SearchCell.m in Sources */,
+				1E64B39A1E14DB8E0011E2FC /* AddressCell.m in Sources */,
+				1E64B38D1E14AD980011E2FC /* TabBarController.m in Sources */,
 				1E64BC9F1E13B316004DE2B3 /* UIView+WZXLines.m in Sources */,
-				1E64BC7C1E13A73A004DE2B3 /* FoundViewController.m in Sources */,
-				1E64BC7F1E13A73A004DE2B3 /* SettingViewController.m in Sources */,
+				1E64B3971E14B78E0011E2FC /* ConversationModel.m in Sources */,
 				1E64BC851E13A73A004DE2B3 /* MASConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddressBookModel.h"
 
 @interface AddressBookCell : UITableViewCell
 
 @property (nonatomic, strong)  UIImageView * avaterView;
 @property (nonatomic, strong)  UILabel * nickNameLabel;
+
+- (void)setModel:(AddressBookModel *)model;
 
 @end

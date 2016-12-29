@@ -10,4 +10,8 @@
 
 @interface BaseViewController : UIViewController
 
+- (void)setRightBarButtonItemWithImageName:(NSString *)imageName
+                                    target:(id)target
+                                    action:(SEL)action;
+
 @end

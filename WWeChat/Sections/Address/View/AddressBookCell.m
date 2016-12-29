@@ -19,21 +19,24 @@
 
 - (void)createUI {
     _avaterView = [UIImageView new];
-    _avaterView.image = [UIImage imageNamed:@"default_avater"];
     [self.contentView addSubview: _avaterView];
     [_avaterView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(self.contentView);
-        make.left.equalTo(self.contentView).offset(15);
-        make.size.mas_equalTo(CGSizeMake(50, 50));
+        make.left.equalTo(self.contentView).offset(10);
+        make.size.mas_equalTo(CGSizeMake(40, 40));
     }];
     
     _nickNameLabel = [UILabel new];
-    _nickNameLabel.text = @"nickname";
     [self.contentView addSubview: _nickNameLabel];
-    [self.nickNameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+    [_nickNameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(self.contentView);
-        make.left.equalTo(_avaterView.mas_right).offset(15);
+        make.left.equalTo(_avaterView.mas_right).offset(10);
     }];
+}
+
+- (void)setModel:(AddressBookModel *)model {
+    _avaterView.image = [UIImage imageNamed:model.imgUrl];
+    _nickNameLabel.text = model.name;
 }
 
 @end

@@ -25,9 +25,8 @@
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, kScreenWidth, kScreenHeight - 64) style:UITableViewStyleGrouped];
     _tableView.delegate = self;
     _tableView.dataSource = self;
-    _tableView.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
+    _tableView.separatorInset = UIEdgeInsetsMake(0, 20, 0, 0);
     _tableView.showsVerticalScrollIndicator = NO;
-    _tableView.showsHorizontalScrollIndicator = NO;
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SettingCell"];
     [_tableView registerClass:[MeCell class] forCellReuseIdentifier:@"MeCell"];
     [self.view addSubview:_tableView];

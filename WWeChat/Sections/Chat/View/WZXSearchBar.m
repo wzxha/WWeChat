@@ -21,12 +21,14 @@
     self.backgroundColor = [UIColor whiteColor];
     [self wzx_addCornerRadius:3 clipsToBounds:YES];
     
-    UILabel * textLabel = [UILabel new];
-    textLabel.text = @"搜索";
-    textLabel.font = [UIFont systemFontOfSize:13];
-    textLabel.textColor = BASE_BACKGROUND_COLOR;
-    [self addSubview:textLabel];
-    [textLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+    _searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    _searchButton.userInteractionEnabled = NO;
+    _searchButton.titleLabel.font = [UIFont systemFontOfSize:14];
+    [_searchButton setImage:[UIImage imageNamed:@"search"] forState:UIControlStateNormal];
+    [_searchButton setTitle:@"搜索" forState:UIControlStateNormal];
+    [_searchButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    [self addSubview:_searchButton];
+    [_searchButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self);
     }];
     

@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ConversationModel.h"
 
 @interface ConversationCell : UITableViewCell
+
+@property (nonatomic, strong) UIImageView * avaterView;
+
+@property (nonatomic, strong) UILabel * headLabel;
+
+@property (nonatomic, strong) UILabel * messageLabel;
+
+@property (nonatomic, strong) UILabel * timeLabel;
+
+- (void)setModel:(ConversationModel *)model;
 
 @end

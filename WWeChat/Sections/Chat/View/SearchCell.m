@@ -12,6 +12,7 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
         [self createUI];
     }
     return self;
@@ -23,7 +24,7 @@
     _searchBar = [WZXSearchBar new];
     [self.contentView addSubview:_searchBar];
     [_searchBar mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.contentView).insets(UIEdgeInsetsMake(5, 5, 5, 5));
+        make.edges.equalTo(self.contentView).insets(UIEdgeInsetsMake(8, 10, 8, 10));
     }];
 }
 

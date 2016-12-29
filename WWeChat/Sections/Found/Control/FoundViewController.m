@@ -25,9 +25,8 @@
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _tableView.rowHeight = 45;
-    _tableView.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
+    _tableView.separatorInset = UIEdgeInsetsMake(0, 20, 0, 0);
     _tableView.showsVerticalScrollIndicator = NO;
-    _tableView.showsHorizontalScrollIndicator = NO;
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"FoundCell"];
     [self.view addSubview:_tableView];
 }
