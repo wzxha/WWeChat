@@ -23,15 +23,15 @@
 
 - (void)super_setUp {
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.view.backgroundColor = [UIColor whiteColor];
-
-    UIBarButtonItem * backbutton = [UIBarButtonItem new];
-    backbutton.title = @"返回";
-    self.navigationItem.backBarButtonItem = backbutton;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIBarButtonItem * backbutton = [UIBarButtonItem new];
+    backbutton.title = @"返回";
+    self.navigationItem.backBarButtonItem = backbutton;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

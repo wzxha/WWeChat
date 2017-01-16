@@ -10,6 +10,4 @@
 
 @interface SearchViewController : UIViewController
 
-@property (nonatomic, strong) UISearchBar * searchBar;
-
 @end

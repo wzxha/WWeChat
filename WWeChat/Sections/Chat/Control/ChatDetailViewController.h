@@ -13,4 +13,8 @@
 
 @property (nonatomic, strong) ConversationModel * conversationModel;
 
+@property (nonatomic, strong) UITableView * tableView;
+
+@property (nonatomic, strong) NSMutableArray * datas;
+
 @end

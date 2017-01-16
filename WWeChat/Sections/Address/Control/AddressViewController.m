@@ -13,7 +13,9 @@
 #import "SearchCell.h"
 #import "SearchViewController.h"
 
-@interface AddressViewController () <UITableViewDelegate, UITableViewDataSource, UIViewControllerTransitioningDelegate>
+@interface AddressViewController () <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
+
+@property (nonatomic, strong) UISearchController * searchController;
 
 @property (nonatomic, strong) NSMutableArray <NSArray <AddressBookModel *> *> * datas;
 
@@ -94,8 +96,20 @@
     _tableView.sectionIndexColor = kRGB(82, 82, 82);
     [_tableView registerClass:[AddressCell class] forCellReuseIdentifier:@"AddressCell"];
     [_tableView registerClass:[AddressBookCell class]  forCellReuseIdentifier:@"AddressBookCell"];
-    [_tableView registerClass:[SearchCell class] forCellReuseIdentifier:@"SearchCell"];
     [self.view addSubview:_tableView];
+    
+    _searchController =
+    [[UISearchController alloc] initWithSearchResultsController:[SearchViewController new]];
+    _searchController.searchBar.barStyle = UIBarStyleDefault;
+    _searchController.searchBar.barTintColor = BASE_BACKGROUND_COLOR;
+    _searchController.searchBar.tintColor = BASE_COLOR;
+    _searchController.searchBar.translucent = YES;
+    _searchController.searchBar.delegate = self;
+    _searchController.hidesBottomBarWhenPushed = YES;
+    CGRect rect = _searchController.searchBar.frame;
+    rect.size.height = 44;
+    _searchController.searchBar.frame = rect;
+    self.tableView.tableHeaderView = _searchController.searchBar;
 }
 
 #pragma mark - UITableViewDelegate
@@ -106,14 +120,9 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0) {
-        if (indexPath.row != 0) {
-            AddressCell * addressCell = (AddressCell *)cell;
-            addressCell.titleLabel.text = [self tableTitles][indexPath.row];
-            addressCell.imgView.image   = [UIImage imageNamed:[self tableImages][indexPath.row]];
-        } else {
-            _searchBar = ((SearchCell *) cell).searchBar;
-            [_searchBar addTarget:self action:@selector(toSearchViewController) forControlEvents:UIControlEventTouchUpInside];
-        }
+        AddressCell * addressCell = (AddressCell *)cell;
+        addressCell.titleLabel.text = [self tableTitles][indexPath.row];
+        addressCell.imgView.image   = [UIImage imageNamed:[self tableImages][indexPath.row]];
     } else {
         // 通讯录好友
         [((AddressBookCell *)cell) setModel:_datas[indexPath.section - 1][indexPath.row]];
@@ -159,11 +168,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0) {
-        if (indexPath.row == 0) {
-            return [tableView dequeueReusableCellWithIdentifier:@"SearchCell"];
-        } else {
-            return [tableView dequeueReusableCellWithIdentifier:@"AddressCell"];
-        }
+        return [tableView dequeueReusableCellWithIdentifier:@"AddressCell"];
     }
     return [tableView dequeueReusableCellWithIdentifier:@"AddressBookCell"];
 }
@@ -198,37 +203,30 @@
     return [NSClassFromString(@"SearchModalAnimation") new];
 }
 
+#pragma mark - UISearchBarDelegate
+
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
+    self.navigationController.tabBarController.tabBar.hidden = YES;
+}
+
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+    self.navigationController.tabBarController.tabBar.hidden = NO;
+}
+
 #pragma mark - actions
 
-- (void)toSearchViewController {
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
-    [_searchBar.searchButton mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(_searchBar);
-        make.centerY.equalTo(_searchBar);
-    }];
-    [UIView animateWithDuration:0.1 animations:^{
-        [self.view layoutIfNeeded];
-    }];
-    
-    SearchViewController * searchViewController = [SearchViewController new];
-    searchViewController.modalPresentationStyle = UIModalPresentationCustom;
-    searchViewController.transitioningDelegate  = self;
-    [self presentViewController:searchViewController animated:YES completion:nil];
-}
 
 
 #pragma mark - data
 - (NSArray *)tableTitles {
-    return @[@"",
-             @"新的朋友",
+    return @[@"新的朋友",
              @"群聊",
              @"标签",
              @"公众号"];
 };
 
 - (NSArray *)tableImages {
-    return @[@"",
-             @"plugins_FriendNotify",
+    return @[@"plugins_FriendNotify",
              @"add_friend_icon_addgroup",
              @"Contact_icon_ContactTag",
              @"add_friend_icon_offical"];};

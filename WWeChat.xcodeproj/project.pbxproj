@@ -26,7 +26,6 @@
 		1E64B3971E14B78E0011E2FC /* ConversationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3961E14B78E0011E2FC /* ConversationModel.m */; };
 		1E64B39A1E14DB8E0011E2FC /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3991E14DB8E0011E2FC /* AddressCell.m */; };
 		1E64B39D1E14E0410011E2FC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B39C1E14E0410011E2FC /* SearchViewController.m */; };
-		1E64B3A01E14E2B60011E2FC /* SearchModalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B39F1E14E2B60011E2FC /* SearchModalAnimation.m */; };
 		1E64B3A31E14FF4B0011E2FC /* ChatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64B3A21E14FF4B0011E2FC /* ChatDetailViewController.m */; };
 		1E64BC741E13A73A004DE2B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC1A1E13A73A004DE2B3 /* AppDelegate.m */; };
 		1E64BC751E13A73A004DE2B3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC1D1E13A73A004DE2B3 /* BaseViewController.m */; };
@@ -49,6 +48,9 @@
 		1E64BC9A1E13B2C9004DE2B3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC991E13B2C9004DE2B3 /* UIView+Extension.m */; };
 		1E64BC9F1E13B316004DE2B3 /* UIView+WZXLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BC9D1E13B316004DE2B3 /* UIView+WZXLines.m */; };
 		1E64BCB21E13BF04004DE2B3 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64BCB11E13BF04004DE2B3 /* UIColor+Extension.m */; };
+		1EBEBC701E2CA07B009E3333 /* ChatBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBEBC6F1E2CA07B009E3333 /* ChatBoxViewController.m */; };
+		1EBEBC731E2CA19B009E3333 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBEBC721E2CA19B009E3333 /* ChatCell.m */; };
+		1EBEBC761E2CA1D2009E3333 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBEBC751E2CA1D2009E3333 /* MessageModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,8 +92,6 @@
 		1E64B3991E14DB8E0011E2FC /* AddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCell.m; sourceTree = "<group>"; };
 		1E64B39B1E14E0410011E2FC /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		1E64B39C1E14E0410011E2FC /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		1E64B39E1E14E2B60011E2FC /* SearchModalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModalAnimation.h; sourceTree = "<group>"; };
-		1E64B39F1E14E2B60011E2FC /* SearchModalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModalAnimation.m; sourceTree = "<group>"; };
 		1E64B3A11E14FF4B0011E2FC /* ChatDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDetailViewController.h; sourceTree = "<group>"; };
 		1E64B3A21E14FF4B0011E2FC /* ChatDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDetailViewController.m; sourceTree = "<group>"; };
 		1E64BB7C1E138C67004DE2B3 /* WWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +144,12 @@
 		1E64BC9E1E13B316004DE2B3 /* WZXLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXLines.h; sourceTree = "<group>"; };
 		1E64BCB01E13BF04004DE2B3 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		1E64BCB11E13BF04004DE2B3 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		1EBEBC6E1E2CA07B009E3333 /* ChatBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBoxViewController.h; sourceTree = "<group>"; };
+		1EBEBC6F1E2CA07B009E3333 /* ChatBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBoxViewController.m; sourceTree = "<group>"; };
+		1EBEBC711E2CA19B009E3333 /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		1EBEBC721E2CA19B009E3333 /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		1EBEBC741E2CA1D2009E3333 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		1EBEBC751E2CA1D2009E3333 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +242,8 @@
 				1E64B39C1E14E0410011E2FC /* SearchViewController.m */,
 				1E64B3A11E14FF4B0011E2FC /* ChatDetailViewController.h */,
 				1E64B3A21E14FF4B0011E2FC /* ChatDetailViewController.m */,
+				1EBEBC6E1E2CA07B009E3333 /* ChatBoxViewController.h */,
+				1EBEBC6F1E2CA07B009E3333 /* ChatBoxViewController.m */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -245,8 +253,8 @@
 			children = (
 				1E64B3951E14B78E0011E2FC /* ConversationModel.h */,
 				1E64B3961E14B78E0011E2FC /* ConversationModel.m */,
-				1E64B39E1E14E2B60011E2FC /* SearchModalAnimation.h */,
-				1E64B39F1E14E2B60011E2FC /* SearchModalAnimation.m */,
+				1EBEBC741E2CA1D2009E3333 /* MessageModel.h */,
+				1EBEBC751E2CA1D2009E3333 /* MessageModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,6 +268,8 @@
 				1E64B35E1E14AD980011E2FC /* SearchCell.m */,
 				1E64B35F1E14AD980011E2FC /* WZXSearchBar.h */,
 				1E64B3601E14AD980011E2FC /* WZXSearchBar.m */,
+				1EBEBC711E2CA19B009E3333 /* ChatCell.h */,
+				1EBEBC721E2CA19B009E3333 /* ChatCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -609,7 +619,7 @@
 		1E64BB741E138C67004DE2B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = wzxjiang;
 				TargetAttributes = {
 					1E64BB7B1E138C67004DE2B3 = {
@@ -655,10 +665,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E64B3861E14AD980011E2FC /* ConversationCell.m in Sources */,
+				1EBEBC761E2CA1D2009E3333 /* MessageModel.m in Sources */,
 				1E64BC831E13A73A004DE2B3 /* main.m in Sources */,
 				1E64BC761E13A73A004DE2B3 /* KeyChain.m in Sources */,
 				1E64BCB21E13BF04004DE2B3 /* UIColor+Extension.m in Sources */,
-				1E64B3A01E14E2B60011E2FC /* SearchModalAnimation.m in Sources */,
 				1E64BC931E13AC9B004DE2B3 /* ThridPartService.m in Sources */,
 				1E64B38A1E14AD980011E2FC /* LoginViewController.m in Sources */,
 				1E64B39D1E14E0410011E2FC /* SearchViewController.m in Sources */,
@@ -669,9 +679,11 @@
 				1E64BC8B1E13A73A004DE2B3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				1E64BC891E13A73A004DE2B3 /* MASViewConstraint.m in Sources */,
 				1E64B38F1E14AD980011E2FC /* RegisterContentView.m in Sources */,
+				1EBEBC731E2CA19B009E3333 /* ChatCell.m in Sources */,
 				1E64B3891E14AD980011E2FC /* FoundViewController.m in Sources */,
 				1E64B3941E14ADAE0011E2FC /* AddressBookModel.m in Sources */,
 				1E64B38B1E14AD980011E2FC /* RegisterViewController.m in Sources */,
+				1EBEBC701E2CA07B009E3333 /* ChatBoxViewController.m in Sources */,
 				1E64BC741E13A73A004DE2B3 /* AppDelegate.m in Sources */,
 				1E64B3831E14AD980011E2FC /* AddressViewController.m in Sources */,
 				1E64BC8C1E13A73A004DE2B3 /* View+MASAdditions.m in Sources */,
@@ -729,6 +741,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -776,6 +789,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
