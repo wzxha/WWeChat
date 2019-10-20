@@ -1,5 +1,5 @@
 ![image](https://github.com/Wzxhaha/WWeChat/raw/master/WWeChat.png)
-# WWeChat
+## WWeChat
 redoing...
 
 ## Feed back
